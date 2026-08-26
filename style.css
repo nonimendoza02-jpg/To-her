@@ -1,0 +1,24 @@
+.flower_leaf {
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 2vmin;
+
+    transform: translateX(-50%);
+
+    width: 5vmin;
+
+    height: 14vmin;
+
+    background-image: linear-gradient(
+        to bottom,
+        #ffa085,
+        #fa7373,
+        #1a233a 99%
+    );
+    clip-path: ellipse(50% 50% at 50% 50%);
+    transform-origin: center bottom;
+
+    animation: open-flower 2s 1s backwards;
+}
